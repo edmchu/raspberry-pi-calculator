@@ -13,8 +13,13 @@ You can now run picalc.sh in the terminal:
 > 
 > `picalc.sh`
 >
-> `Number 1 :`
+> Number 1 :
 
 Though you do have to input the numbers one by one, it still works in the terminal.
+
+> Requires:
+> - Debian
+> - python 3
+> - Basic terminal use knowledge
 
 It may not work now, but it will!
