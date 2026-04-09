@@ -14,3 +14,5 @@ You can now run picalc.sh in the terminal:
 > `picalc.sh`
 >
 > `Number 1 :`
+
+Though you do have to input the numbers one by one, it still works in the terminal.
