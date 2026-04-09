@@ -16,3 +16,5 @@ You can now run picalc.sh in the terminal:
 > `Number 1 :`
 
 Though you do have to input the numbers one by one, it still works in the terminal.
+
+It may not work now, but it will!
