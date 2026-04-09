@@ -13,10 +13,12 @@ n2 = 0
 op = ""
 
 def go () :
-  while true :
+  while True :
     n1 = input("Number 1 : ")
+    n1 = int(n1)
     op = input("Operator : ")
     n2 = input("Number 2 : ")
+    n2 = int(n2)
     print(calculate(op, n1, n2))
 
 go()
