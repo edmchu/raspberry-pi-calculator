@@ -7,3 +7,16 @@ def calculate (intoperand, num1, num2) :
     return(num1*num2)
   elif intoperand == "/" :
     return(num1/num2)
+    
+n1 = 0
+n2 = 0
+op = ""
+
+def go () :
+  while true :
+    n1 = input("Number 1 : ")
+    op = input("Operator : ")
+    n2 = input("Number 2 : ")
+    print(calculate(op, n1, n2))
+
+go()
