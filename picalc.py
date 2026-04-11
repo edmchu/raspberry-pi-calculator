@@ -15,9 +15,12 @@ op = ""
 def go () :
   while True :
     n1 = input("Number 1 : ")
+    if n1 == "kill" : break
     n1 = int(n1)
     op = input("Operator : ")
+    if op == "kill" : break
     n2 = input("Number 2 : ")
+    if n2 == "kill" : break
     n2 = int(n2)
     print(calculate(op, n1, n2))
 
